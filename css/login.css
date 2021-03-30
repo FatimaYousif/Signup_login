@@ -1,0 +1,19 @@
+/* login page styles */
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.hide {
+    display: none;
+}
+
+.hide p {
+    color: red;
+}
+
+.button button:hover {
+    padding-left: 35px;
+}

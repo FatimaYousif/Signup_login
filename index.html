@@ -9,7 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
-    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -17,10 +24,9 @@
         <div class="container">
 
             <div class="img">
-                <img src="pic.PNG" alt="" height="500px">
+                <img src="./img/pic.png" alt="" height="500px">
             </div>
             <div class="form">
-
                 <div class="one">
                     <div class="row">
                         <p>Username</p>
@@ -45,7 +51,8 @@
                     </div>
 
                     <div class="row checkbox">
-                        <input type="checkbox" name="agree" id="agree"> I agree to the terms & conditions.
+                        <input type="checkbox" name="agree" id="agree">
+                        <label for="agree"> I agree to the terms & conditions.</label>
                     </div>
 
                     <div class="row hide" id="show1">
@@ -60,7 +67,7 @@
                 </div>
             </div>
     </form>
-    <script src="app.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>
