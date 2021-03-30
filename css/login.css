@@ -1,19 +1,9 @@
 /* login page styles */
 
-/* .button{
-    margin-top: 3rem;
-} */
-
-.button button {
-    border: none;
-    border-radius: 1em;
-    color: white;
-    background-color: #cf73db;
-    padding: 0.5em 2em;
-}
 input {
     border: none;
     border-bottom: 1px solid black;
+    outline: none;
 }
 
 .hide {
@@ -22,4 +12,8 @@ input {
 
 .hide p {
     color: red;
+}
+
+.button button:hover {
+    padding-left: 35px;
 }

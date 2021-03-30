@@ -1,25 +1,20 @@
 /* home page styles */
 
-.checkbox,
-.button {
+.checkbox {
     margin-top: 2rem;
 }
 
-.button button {
-    border: none;
-    border-radius: 1em;
-    color: white;
-    background-color: #cf73db;
-    padding: 0.5em 2em;
-}
 input {
     border: none;
     border-bottom: 1px solid black;
+    outline: none;
 }
+
 .hide {
     display: none;
     margin-top: 1rem;
 }
+
 .hide p {
     color: red;
 }
