@@ -1,0 +1,29 @@
+/* default global styles */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    height: 300px;
+}
+
+.img img {
+    filter: blur(0.5px);
+}
+
+.form {
+    margin-left: 2rem;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+}

@@ -1,0 +1,25 @@
+/* login page styles */
+
+/* .button{
+    margin-top: 3rem;
+} */
+
+.button button {
+    border: none;
+    border-radius: 1em;
+    color: white;
+    background-color: #cf73db;
+    padding: 0.5em 2em;
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.hide {
+    display: none;
+}
+
+.hide p {
+    color: red;
+}
